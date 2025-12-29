@@ -42,6 +42,16 @@ cargo build --release
 ./target/release/aether validate data/market_data.csv --folds 3 --seed 42
 ```
 
+## Library Example
+
+```bash
+cargo run --example validate
+```
+
+```bash
+cargo run --example train
+```
+
 ## Data Format
 
 Input CSV must include the following columns:

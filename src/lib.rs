@@ -1,3 +1,7 @@
+//! AETHER: regime-aware genetic programming engine for market research.
+//!
+//! The library exposes data loading, GP evolution, and validation utilities.
+
 pub mod data;
 pub mod engine;
 pub mod gp;

@@ -1,10 +1,16 @@
 [package]
-name = "aether"
-version = "1.0.0"
+name = "aether-gp"
+version = "1.0.1"
 edition = "2021"
 authors = ["Physis-Research"]
-description = "Regime-Aware Symbolic Regression Engine for Entropy Harvesting"
+description = "Regime-aware symbolic regression engine for market research"
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Physis-Research/AETHER"
+homepage = "https://github.com/Physis-Research/AETHER"
+documentation = "https://docs.rs/aether-gp"
+keywords = ["quant", "trading", "genetic-programming", "backtesting", "time-series"]
+categories = ["science", "simulation", "command-line-utilities"]
 
 [[bin]]
 name = "aether"
